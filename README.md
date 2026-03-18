@@ -28,7 +28,6 @@ It wrote the code, ran away, and now the game is unplayable.
 - [ ] Describe the game's purpose.
 - [ ] Detail which bugs you found.
 - [ ] Explain what fixes you applied.
-## 📝 Document Your Experience
 
 This game is a Streamlit-based number guessing game where the player tries to guess a randomly generated number within a limited number of attempts. The game includes difficulty levels, scoring, and hints to guide the player.
 While testing the game, I found several bugs. The main issue was that the hint logic was reversed, when the guess was too high, the game incorrectly told the player to go higher. I also noticed that the attempt counter was off at the start and that the new game did not always respect the selected difficulty range.
